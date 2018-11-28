@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
+# In[2]:
 
 
 #TEST 01
@@ -120,7 +120,7 @@ def reading(imageSource):
 
         sumOfArea = sum(area1)
         #print("sum of Area =",sumOfArea)
-        cv2.imshow("Bounding box",imCrop)
+        #cv2.imshow("Bounding box",imCrop)
 
     print(sumOfArea)
     print(numOfContours)
